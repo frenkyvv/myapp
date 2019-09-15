@@ -22,7 +22,7 @@ app.use(express.static(pubDirPath))
 
 app.get('', (req, res) => {
     res.render('index', {
-        title: 'Weather',
+        title: 'Bienvenidos a Vallesmd',
         name: 'Frenky Valles @2019'
     })
 })
