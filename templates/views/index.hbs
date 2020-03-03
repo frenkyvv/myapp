@@ -2,16 +2,19 @@
 <html lang="en">
 
 <head>
+
     <title>vallesmd</title>
     <link rel="icon" href="/img/weather.png">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-compatible" content="IE=edge"></meta>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=580"/>
 
 </head>
 
 <body>
+  <center>
   <div class="container">
     <div class="row">
       <div id="columna-izquierda" class="col"></div>
@@ -21,16 +24,28 @@
           <div id="formulas">
             <div class="container">
             <h4>Escoge la formular que necesitas:</h4><br>
-            <div class="row">
-              <div class="col"><a href="https://vallesmd.com/personal/med/osmo/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Osmolaridad</a></div>
-              <div class="col"><a href="https://vallesmd.com/personal/med/cad/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Cetoacidosis</a></div>
-              <div class="w-100"><br></div>
-              <div class="col"><a href="https://vallesmd.com/personal/med/hco/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Bicarbonato</a></div>
-              <div class="col"><a href="https://vallesmd.com/personal/med/hiperton/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Hiperton</a></div>
-              <div class="w-100"><br></div>
-              <div class="col"><a href="https://vallesmd.com/personal/med/acls/index.html" class="btn btn-secondary btn-lg active" tabindex="-1" role="button" aria-disabled="true">ACLS</a></div>
-              <div class="col"><a href="https://vallesmd.com/personal/med/glasgow/index.html" class="btn btn-secondary btn-lg active" tabindex="-1" role="button" aria-disabled="true">Glasgow</a></div>
-            </div>
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col"><a href="https://vallesmd.com/personal/med/osmo/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Osmolaridad</a></th>
+                  <th scope="col"><a href="https://vallesmd.com/personal/med/cad/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Cetoacidosis</a></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row"><a href="https://vallesmd.com/personal/med/hco/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Bicarbonato</a></th>
+                  <td><a href="https://vallesmd.com/personal/med/hiperton/index.html" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Hiperton</a></td>
+                </tr>
+                <tr>
+                  <th scope="row"><a href="https://vallesmd.com/personal/med/acls/index.html" class="btn btn-secondary btn-lg active" tabindex="-1" role="button" aria-disabled="true">ACLS</a></th>
+                  <td><a href="https://vallesmd.com/personal/med/glasgow/index.html" class="btn btn-secondary btn-lg active" tabindex="-1" role="button" aria-disabled="true">Glasgow</a></td>
+                </tr>
+                <tr>
+                  <th scope="row"><a href="https://vallesmd.com/personal/med/glasgow/index.html" class="btn btn-secondary btn-lg active" tabindex="-1" role="button" aria-disabled="true">Glasgow</a></th>
+                  <td colspan="2" style="color: red;"><a href="https://vallesmd.com/personal/med/dopa/index.html" class="btn btn-primary btn-lg active" tabindex="-1" role="button" aria-disabled="true">Dopamina</a> new</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
       </div>
 
@@ -64,6 +79,7 @@
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</center>
 </body>
    
 </html>
